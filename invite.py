@@ -1,7 +1,6 @@
 from math import *
 from parser import PeopleParser
 
-
 class Invite(object):
 
     def __init__(self):
@@ -44,4 +43,3 @@ class Invite(object):
 
     def get_delta(self, elem1, elem2):
         return abs(elem1 - elem2)
-

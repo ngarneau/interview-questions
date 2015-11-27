@@ -1,7 +1,5 @@
 import unittest
-
 from util import MyArray
-
 
 class TestUtil(unittest.TestCase):
     my_array = MyArray()
@@ -35,7 +33,6 @@ class TestUtil(unittest.TestCase):
         your_array = [[1, 2, [3]], 4]
         flat_array = self.my_array.flat(your_array)
         self.assertEqual(flat_array, [1, 2, 3, 4])
-
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,9 +1,7 @@
 import unittest
 from pprint import pprint
-
 from invite import Invite
 from parser import PeopleParser
-
 
 class TestInvite(unittest.TestCase):
     def setUp(self):
@@ -67,7 +65,6 @@ class TestInvite(unittest.TestCase):
     def test_invite_test_people(self):
         cool_people = self.invite.these_within('people.txt', 100)
         pprint(cool_people)
-
 
 if __name__ == '__main__':
     unittest.main()
