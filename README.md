@@ -9,5 +9,5 @@ $ python3 test_util.py
 ```
 
 ```
-$ python 3 test_invite.py
+$ python3 test_invite.py
 ```
